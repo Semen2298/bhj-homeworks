@@ -64,11 +64,12 @@ input:focus {
 }
 
 .card {
-  width: 400px;
+  width: 500px;
   padding: 20px 30px;
   margin: 0 auto 30px;
   background-color: #fff;
   border-radius: 5px;
+  text-align: center;
 }
 
 .card-wide {
