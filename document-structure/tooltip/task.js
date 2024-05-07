@@ -5,7 +5,7 @@ linksTooltip.forEach(linkTooltip => {
     div.classList.add('tooltip');
     const linksTitle = linkTooltip.title;
     div.textContent = linksTitle;
-    linkTooltip.appendChild(div);
+    linkTooltip.insertAdjacentElement( "afterend" , div);
 
     linkTooltip.addEventListener('click', e => {
         e.preventDefault();
