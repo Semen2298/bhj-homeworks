@@ -9,3 +9,9 @@ body {
 .poll__title {
   margin-bottom: 20px;
 }
+.poll__answers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
